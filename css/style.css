@@ -1,0 +1,58 @@
+.sidebar {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    /*width: 202px;*/
+}
+.sidebar > .control {
+    border: 1px solid #aaa;
+    background-color: #fff;
+    border-radius: 30px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+
+    margin-bottom: 5px;
+}
+
+.sidebar > .control > div {
+    height: 50px;
+}
+
+.sidebar > .control > .text {
+    /*width: 120px;*/
+    float: left;
+    padding: 15px 0;
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    transition-timing-function: ease-out;
+    overflow: hidden;
+}
+
+.sidebar > .control > .text.active {
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: unset !important;
+    padding: 15px !important;
+}
+
+.sidebar > .control > .icon {
+    width: 51px;
+    float: right;
+    padding: 12px;
+}
+
+.sidebar > .control > .text > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #999;
+}

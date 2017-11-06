@@ -1,0 +1,15 @@
+{
+    "result": "success",
+    "action": "none",
+    "data": [
+      {
+        "name": "favorites", "data": []
+      },
+      {
+        "name": "recent", "data": []
+      },
+      {
+        "name": "searches", "data": []
+      }
+    ]
+}
